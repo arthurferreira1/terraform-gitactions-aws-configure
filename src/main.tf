@@ -11,3 +11,9 @@ terraform {
     provider: "aws" {
         region = "us-east-2"
     }
+
+    module "tf-state" {
+        source = "./modules/tf-state"
+        bucket_name = "cc-tf-state-backend-ci-cd-arthur"
+
+    }
