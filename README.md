@@ -1,3 +1,3 @@
 # terraform-gitactions-aws-configure
 
-Repository with the aim of studying and practicing the Terraform tool with AWS
+Repositório de IaC que permite realizar modificações em configurações na AWS usando Terraform integrado com o github Actions.
